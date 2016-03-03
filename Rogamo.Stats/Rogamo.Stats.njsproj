@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc13e716-ab6f-43f2-93d8-eb1ec092027f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>index.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="index.js" />
+    <Compile Include="requestHandlers.js" />
+    <Compile Include="router.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
