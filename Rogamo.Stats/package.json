@@ -1,0 +1,10 @@
+{
+  "name": "Rogamo.Stats",
+  "version": "0.0.0",
+  "description": "Rogamo.Stats",
+  "main": "server.js",
+  "author": {
+    "name": "Jakob",
+    "email": ""
+  }
+}
